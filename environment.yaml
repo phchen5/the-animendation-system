@@ -1,0 +1,14 @@
+name: animendation-system
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - jupyterlab
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scikit-surprise
+  - tqdm
+prefix: /Users/benchen/miniconda3/envs/animendation-system
