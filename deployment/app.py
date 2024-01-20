@@ -15,6 +15,8 @@ def load_data():
     cosine_sim_content = pd.read_csv("../data/cosine_sim_content.csv", index_col=0)
     return cosine_sim_content
 
+cosine_sim_content = load_data()
+
 def get_recommendations(title, cosine_sim):
     idx = indices[title]
     sim_scores = list(enumerate(cosine_sim[idx]))
