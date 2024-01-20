@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 from streamlit import session_state as session
 
-with open("../data/anime_title_list.pkl", "rb") as f:
+with open("data/anime_title_list.pkl", "rb") as f:
     animes = pickle.load(f)
 
 @st.cache(persist=True, show_spinner=False, suppress_st_warning=True)
