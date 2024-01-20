@@ -12,7 +12,7 @@ def load_data():
     load and cache data
     :return: tfidf data
     """
-    cosine_sim_content = pd.read_csv("../data/cosine_sim_content.csv", index_col=0)
+    cosine_sim_content = pd.read_csv("data/cosine_sim_content.csv", index_col=0)
     return cosine_sim_content
 
 cosine_sim_content = load_data()
